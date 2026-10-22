@@ -15,6 +15,7 @@ spec:
       containers:
       - name: java-app
         image: sadaanzuhaib/java-app:latest
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
